@@ -1,16 +1,16 @@
-## OpenSea Creatures - Starter ERC721, ERC1155, and factory contracts
+## CryptoChumz - ERC721, ERC1155, and factory contract
 
 What's included:
 
-### Sample ERC721/ERC1155 Contracts
+### CryptoChumz ERC721/ERC1155 Contracts
 
-This includes a very simple sample ERC721 / ERC1155 for the purposes of demonstrating integration with the [OpenSea](https://opensea.io) marketplace. We include a script for minting the items.
+This includes a CryptoChumz ERC721 / ERC1155 for the purposes of demonstrating integration with the [OpenSea](https://opensea.io) marketplace. We include a script for minting the items.
 
-Additionally, this contract whitelists the proxy accounts of OpenSea users so that they are automatically able to trade the ERC721 item on OpenSea (without having to pay gas for an additional approval). On OpenSea, each user has a "proxy" account that they control, and is ultimately called by the exchange contracts to trade their items. (Note that this addition does not mean that OpenSea itself has access to the items, simply that the users can list them more easily if they wish to do so)
+Additionally, this contract whitelists the proxy accounts of OpenSea users so that they are automatically able to trade the ERC721 CryptoChumz collectibles on OpenSea (without having to pay gas for an additional approval). On OpenSea, each user has a "proxy" account that they control, and is ultimately called by the exchange contracts to trade their items. (Note that this addition does not mean that OpenSea itself has access to the items, simply that the users can list them more easily if they wish to do so)
 
 ### Factory Contracts
 
-In addition to these template 721/1155 contracts, we provide sample factory contracts for running gas-free presales of items that haven't been minted yet. See https://docs.opensea.io/docs/opensea-initial-item-sale-tutorial for more info.
+In addition to these template 721/1155 contracts, provided are factory contracts for running gas-free presales of CryptoChumz collectibles that haven't been minted yet. See https://docs.opensea.io/docs/opensea-initial-item-sale-tutorial for more info.
 
 ## Requirements
 
@@ -80,7 +80,7 @@ If you're running a modified version of `sell.js` and not getting expected behav
 
 - Are you running a version of node compliant with the `engines` requirement in `package.json`? If no, try `nvm use; rm -rf node_modules; yarn`
 
-# About OpenSea Creature Accessories
+# About CryptoChumz Accessories
 
 This is a sample ERC-1155 contract for the purposes of demonstrating integration with the [OpenSea](https://opensea.io) marketplace for crypto collectibles. We also include:
 
